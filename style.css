@@ -1,0 +1,102 @@
+/* fontes */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,500&display=swap');
+
+/* estilização global */
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/* cabeçalho do site */
+.cabecalho {
+    background-color: #F4E3B2;
+    display: flex;
+    height: 15vh;
+    width: 100vw;
+    border-bottom: 3px solid #553D36;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 1vw;
+    line-height: 1em;
+}
+
+#primeira-palavra-titulo {
+    color: #9EB7E5;
+    text-shadow: 2px 2px 1px #0059ff;
+}
+
+#segunda-palavra-titulo {
+    color: #FF1616;
+    text-shadow: 2px 2px 1px #7c1515;
+}
+
+/* navegação do site */
+.navegacao-do-cabecalho {
+    width: 100%;
+    margin-right: 10vw;
+}
+
+.lista-de-navegacao{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.lista-de-navegacao a:hover {
+    border-bottom: 4px solid #FF1616;
+    color:  #8f6153;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+.lista-de-navegacao a {
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: #553D36;
+    height: 100%;
+    padding: 5vh 5vw;
+}
+
+/* conteudo do site */
+
+.conteudo-do-site {
+    display: flex;
+}
+
+.imagem-conteudo-principal {
+    padding: 5vw 1vw 5vw 5vw;
+    width: 50vw;
+}
+
+.imagem-conteudo-principal img {
+    width: 100%;
+}
+
+.texto-conteudo-principal { 
+    width: 50vw;
+    padding: 6vw 1vw 4vw 2vw;
+}
+
+.texto-conteudo-principal h2 {
+    margin-bottom: 20px;
+    border-bottom: 5px solid #F4E3B2;
+}
+
+.texto-conteudo-principal p {
+    font-weight: bolder;
+    line-height: 2em;
+}
